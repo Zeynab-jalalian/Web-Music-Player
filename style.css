@@ -167,7 +167,7 @@ body:hover::-webkit-scrollbar-thumb{
 .btn-icon:hover{
     background: var(--on-surface-variant-hover);
 }
-.btn-icon:is(:hover,:focus-visible){
+.btn-icon:is(:focus,:focus-visible){
     background: var(--on-surface-variant-focus);
 }
 
