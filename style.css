@@ -137,3 +137,36 @@ body.modalActive{
 body:hover::-webkit-scrollbar-thumb{
     background: var(--surface-variant);
 }
+
+
+/*basic*/
+
+.material-icons{
+    font-variation-settings: 'FILL' 0,'wght' 400,'GRAD' -25,'opsz' 24;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    user-select: none;
+}
+.title-logo{
+    font-size: var(--title-lg);
+    font-weight: var(--fw-400);
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.btn-icon{
+    color: var(--on-surface-variant);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius-circle);
+}
+.btn-icon:hover{
+    background: var(--on-surface-variant-hover);
+}
+.btn-icon:is(:hover,:focus-visible){
+    background: var(--on-surface-variant-focus);
+}
